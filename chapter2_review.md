@@ -30,17 +30,16 @@ Date: 17 Feb 2016.
 
 ##3. What is multiprogramming?
  When two or more programs are residing in memory at the same time, then sharing the processor is referred to the multiprogramming.
-Multiprogramming assumes a single shared processor. Multiprogramming increases CPU utilization by organizing jobs so that
-the CPU always has one to execute.
-High and efficient CPU utilization.
-User feels that many programs are allotted CPU almost simultaneously.
+Multiprogramming assumes a single shared processor. Multiprogramming increases CPU utilization by organizing jobs so that the CPU always has one to execute. High and efficient CPU utilization. User feels that many programs are allotted CPU almost simultaneously.
 
 ##4.What is a process?
-A process is a series of steps and decisions involved in the way work is completed. We may not realize it, 
-but processes are everywhere and in every aspect of our leisure and work.
+ A process can be defined in many ways. A process is a series of steps and decisions involved in the way work is completed. We may not realize it, but processes are everywhere and in every aspect of our leisure and work. Processes can exchange information or synchronize their operation through several methods of interprocess communication (IPC).
 
 ##5.How is the execution context of a process used by the OS? 
  It is also known as the process state. It is the Internal data , the operating system is able to supervise and control the process.
+ 
+ ##6. List and briefly explain five storage management responsibilities of a typical OS.
+ 
   
   
   
