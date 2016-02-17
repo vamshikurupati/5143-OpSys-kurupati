@@ -1,13 +1,20 @@
 # Chapter 2 Review Questions
+
 Name: Vamshi Krishna Kurupati
+
 Course: 5143 Operating Systems
+
 Date: 17 Feb 2016.
 
 
 ##1. What are three objectives of an OS design?
-A.  Convenience: An OS makes a computer more convenient to use.
-    Efficiency: An OS allows the computer system resources to be used in an efficient manner.
-    Ability to evolve: An OS should be constructed in such a way as to permit the effective development, testing,
+
+A. **Convenience**: An OS makes a computer more convenient to use.
+
+  **Efficiency**: An OS allows the computer system resources to be used in an efficient manner.
+
+  **Ability to evolve**: An OS should be constructed in such a way as to permit the effective development, testing,
+  
     and introduction of new system functions without interfering with service.
 
 ##2. What is the kernel of an OS?
