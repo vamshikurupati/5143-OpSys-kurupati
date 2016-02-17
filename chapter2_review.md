@@ -9,7 +9,7 @@ Date: 17 Feb 2016.
 
 ##1. What are three objectives of an OS design?
 
-A. **Convenience**: An OS makes a computer more convenient to use.
+  **Convenience**: An OS makes a computer more convenient to use.
 
   **Efficiency**: An OS allows the computer system resources to be used in an efficient manner.
 
@@ -18,9 +18,7 @@ A. **Convenience**: An OS makes a computer more convenient to use.
   and introduction of new system functions without interfering with service.
 
 ##2. What is the kernel of an OS?
-  kernel is a computer program that manages input/output requests from software, and translates them into data processing
-  instructions for the central processing unit and other electronic components of a computer. The kernel is a fundamental
-  part of a modern computer's operating system.
+  The kernel is a fundamental part of a modern computer's OS.It is a computer program that manages input/output requests from           software, and translates them into data processing instructions for the central processing unit and other electronic components of a   computer. The kernel is a fundamental part of a modern computer's operating system.
   Functions of the kernel:
   Memory Management
   Device Management
