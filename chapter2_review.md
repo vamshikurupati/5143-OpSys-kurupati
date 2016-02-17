@@ -31,3 +31,6 @@ but processes are everywhere and in every aspect of our leisure and work.
 ##5.How is the execution context of a process used by the OS? 
 A:  Also known as the process state. It is the Internal data , the operating system is able to supervise and control the process.
   
+  
+  
+  
