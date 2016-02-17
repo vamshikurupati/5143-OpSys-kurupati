@@ -22,11 +22,11 @@ Date: 17 Feb 2016.
   
   Functions of the kernel:
   
-  Memory Management
+  **Memory Management**
   
-  Device Management
+  **Device Management**
   
-  Sysytem Calls.
+  **Sysytem Calls**.
 
 ##3. What is multiprogramming?
  When two or more programs are residing in memory at the same time, then sharing the processor is referred to the multiprogramming.
@@ -40,7 +40,7 @@ A process is a series of steps and decisions involved in the way work is complet
 but processes are everywhere and in every aspect of our leisure and work.
 
 ##5.How is the execution context of a process used by the OS? 
-  Also known as the process state. It is the Internal data , the operating system is able to supervise and control the process.
+ It is also known as the process state. It is the Internal data , the operating system is able to supervise and control the process.
   
   
   
