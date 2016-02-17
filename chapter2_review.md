@@ -24,6 +24,7 @@ Multiprogramming assumes a single shared processor. Multiprogramming increases C
 the CPU always has one to execute.
 High and efficient CPU utilization.
 User feels that many programs are allotted CPU almost simultaneously.
+
 ##4.What is a process?
 A:A process is a series of steps and decisions involved in the way work is completed. We may not realize it, 
 but processes are everywhere and in every aspect of our leisure and work.
