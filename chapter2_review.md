@@ -29,17 +29,18 @@ Date: 17 Feb 2016.
   Sysytem Calls.
 
 ##3. What is multiprogramming?
-A:   When two or more programs are residing in memory at the same time, then sharing the processor is referred to the multiprogramming.
+ When two or more programs are residing in memory at the same time, then sharing the processor is referred to the multiprogramming.
 Multiprogramming assumes a single shared processor. Multiprogramming increases CPU utilization by organizing jobs so that
 the CPU always has one to execute.
 High and efficient CPU utilization.
 User feels that many programs are allotted CPU almost simultaneously.
 
 ##4.What is a process?
-A:A process is a series of steps and decisions involved in the way work is completed. We may not realize it, 
+A process is a series of steps and decisions involved in the way work is completed. We may not realize it, 
 but processes are everywhere and in every aspect of our leisure and work.
+
 ##5.How is the execution context of a process used by the OS? 
-A:  Also known as the process state. It is the Internal data , the operating system is able to supervise and control the process.
+  Also known as the process state. It is the Internal data , the operating system is able to supervise and control the process.
   
   
   
