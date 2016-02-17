@@ -15,7 +15,7 @@ A. **Convenience**: An OS makes a computer more convenient to use.
 
   **Ability to evolve**: An OS should be constructed in such a way as to permit the effective development, testing,
   
-    and introduction of new system functions without interfering with service.
+  and introduction of new system functions without interfering with service.
 
 ##2. What is the kernel of an OS?
   kernel is a computer program that manages input/output requests from software, and translates them into data processing
