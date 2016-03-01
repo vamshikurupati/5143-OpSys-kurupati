@@ -104,7 +104,4 @@ External interrupt first and after that he will resume with his Operation.
  
  **Mode switch:**It switch the process privilege between the mode like use mode, kernel mode.
  Generally a mode switch is considered less expensive compared to a process switch.
-A mode switch is what is referred to when the cpu changes privilege levels. The kernel works at a higher privilege than a standard user task. In order for the user task to access things controlled by the kernel, it is necessary fro a mode switch to occur. The currently executing process does NOT change during a mode switch. The processor uses these modes to protect the OS from misbehaving or malicious programs, as well as controlling concurrent access to ram, io devices,etc. A mode switch must occur for a software context switch to occur. Only the Kernel can cause a context switch. 
-
-
-
+A mode switch is what is referred to when the cpu changes privilege levels. The kernel works at a higher privilege than a standard user task. In order for the user task to access things controlled by the kernel, it is necessary fro a mode switch to occur. The currently executing process does not change during a mode switch. The processor uses these modes to protect the OS from misbehaving or malicious programs, as well as controlling concurrent access to ram, io devices,etc. A mode switch must occur for a software context switch to occur. 
