@@ -100,19 +100,11 @@ External interrupt first and after that he will resume with his Operation.
 
 ## 3.14 What is the difference between a mode switch and a process switch?
 **Process switch:** It switch the process state between the status like read, blocked ,suspend.
- A process switch is what it is called when the processor switches from one thread/process to another.
- This causes the contents of the cpu registers and instruction pointer to be saved. The registers and instruction pointer
- for the new task will then be loaded into the processor and execution of the new process will start/resume. 
- The old program is no longer executing, but it's state is saved in memory for when the kernel decides that it is ready
- to execute it again. This is what gives the illusion of multitasking, while in reality, only a single process can 
- run at a time on a cpu. A context switch can occur by hardware or software. A hardware interrupt can occur from a 
- device such as the keyboard,mouse,or system timer, causing code to begin executing the interrupt code. 
- Software switches are occurred as a result of the kernel manually performing a task switch. 
- This is how the scheduler usually makes a context switch. 
+ A process switch is what it is called when the processor switches from one thread/process to another.This causes the contents of the cpu registers and instruction pointer to be saved. The registers and instruction pointer for the new task will then be loaded into the processor and execution of the new process will start/resume. The old program is no longer executing, but it's state is saved in memory for when the kernel decides that it is ready to execute it again. This is what gives the illusion of multitasking, while in reality, only a single process can  run at a time on a cpu. A context switch can occur by hardware or software. A hardware interrupt can occur from a device such as the keyboard,mouse,or system timer, causing code to begin executing the interrupt code. Software switches are occurred as a result of the kernel manually performing a task switch. This is how the scheduler usually makes a context switch. 
  
  **Mode switch:**It switch the process privilege between the mode like use mode, kernel mode.
  Generally a mode switch is considered less expensive compared to a process switch.
-A mode switch is what is referred to when the cpu changes privilege levels. The kernel works at a higher privilege than a standard user task. In order for the user task to access things controlled by the kernel, it is necessary fro a mode switch to occur. The currently executing process does NOT change during a mode switch. The processor uses these modes(aka rings) to protect the OS from misbehaving or malicious programs, as well as controlling concurrent access to ram, io devices,etc. A mode switch must occur for a software context switch to occur. Only the Kernel can cause a context switch. 
-Note: The idea of a general protection fault is that a user application has tried to do something that it isn't allowed to do, such as accessing certain parts of it's address space that is not accessible to it.
+A mode switch is what is referred to when the cpu changes privilege levels. The kernel works at a higher privilege than a standard user task. In order for the user task to access things controlled by the kernel, it is necessary fro a mode switch to occur. The currently executing process does NOT change during a mode switch. The processor uses these modes to protect the OS from misbehaving or malicious programs, as well as controlling concurrent access to ram, io devices,etc. A mode switch must occur for a software context switch to occur. Only the Kernel can cause a context switch. 
+
 
 
