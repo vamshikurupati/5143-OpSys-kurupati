@@ -11,9 +11,9 @@ Date: 02 Mar 2016
 Preemption means the operating system moves a process from running to ready without the process requesting it.
 It is the act of temporarily interrupting a task being carried out by a computer system, 
 without requiring its cooperation, and with the intention of resuming the task at a later time.
-Such a change is known as a context switch. It is normally carried out by a privileged task or 
-part of the system known as a preemptive scheduler, which has the power to preempt, or interrupt,
-and later resume, other tasks in the system.
+Such a change is known as a context switch.
+
+It is normally carried out by a privileged task or part of the system known as a preemptive scheduler, which has the power to preempt, or interrupt, and later resume, other tasks in the system.
 
 ## 3.5.What is swapping and what is its purpose?
 To maximize the number of processes in the system, we swap a process from the ready state to the ready suspend state.
