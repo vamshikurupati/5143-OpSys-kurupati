@@ -2,7 +2,7 @@ Name: Vamshi Krishna Kurupati
 
 Date: 04-08-2016
 
-M2022
+M20228730
 
 1)In thread1.py all the instructions are atomic instructions which means operations carried out in a single step without any chance that another can get control over it,so there is no mischanging of value of a shared resource.Where as in thread2.py the run() uses counter increment whose execution is done within three steps.
      
@@ -21,17 +21,19 @@ while one thread is executing that instruction before it writes back the new cou
 
 5)In thread4.py in the following code lock is issued on the shared resource by name sharedNumber but none of the threads are acquiring that lock,hence any of the threads can use the same resource at same time.
 
-  global sharedNumber
-        for k in range(10000000):
+
+          global sharedNumber
+            for k in range(10000000):
           
-            sharedNumber = 1
-            if sharedNumber != 1:
-                print ("A: that was weird")
+                sharedNumber = 1
+                 if sharedNumber != 1:
+                    print ("A: that was weird")
             
-        print ("Goodbye from thread A")
+               print ("Goodbye from thread A")
 
 
 6)In thread4.py after calling a lock on a shared resource,  if we use lock.acquire()method for a specific thread then that particular thread access the resource and uses it,after its usage if we call release() so that any other thread can access the same source if needed one after the other which thread acquires the lock first.
+
 
 def run(self):
         global sharedNumber
