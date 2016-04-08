@@ -30,9 +30,9 @@ while one thread is executing that instruction before it writes back the new cou
           
                 sharedNumber = 1
                  if sharedNumber != 1:
-                    print ("A: that was weird")
+                    print 'A: that was weird'
             
-               print ("Goodbye from thread A")
+               print 'Goodbye from thread A'
 
 
 6)In thread4.py after calling a lock on a shared resource,  if we use lock.acquire()method for a specific thread then that particular thread access the resource and uses it,after its usage if we call release() so that any other thread can access the same source if needed one after the other which thread acquires the lock first.
